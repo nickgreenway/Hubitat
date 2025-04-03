@@ -1,3 +1,3 @@
 # Hubitat
 
-A collection of customized Hubitat Apps and Drivers. Most are for my private use, but can be freely used by others if found useful.
+A driver for GE/Jasco Z wave switches that allow full compatibility with home assistant Via habitat. 
