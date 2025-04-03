@@ -88,6 +88,7 @@ def setLevel(level) {
 
     sendEvent(name: "switch", value: (level > 0) ? "on" : "off")
     sendEvent(name: "level", value: level)
+    sendEvent(name: "percentage", value: level)
     sendEvent(name: "speed", value: speed)
     sendEvent(name: "fanSpeed", value: speed)
 
