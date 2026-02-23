@@ -60,7 +60,7 @@ def setSpeed(String speed) {
             setLevel(33)
             break
         case "medium":
-            setLevel(66)
+            setLevel(65)
             break
         case "high":
         case "on":
@@ -80,9 +80,9 @@ def setLevel(level) {
     def speed = "high"
     if (level <= 0) {
         speed = "off"
-    } else if (level <= 33) {
+    } else if (level <= 32) {
         speed = "low"
-    } else if (level <= 66) {
+    } else if (level <= 65) {
         speed = "medium"
     }
 
